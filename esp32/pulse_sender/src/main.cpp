@@ -3,9 +3,9 @@
 #include <HTTPClient.h>
 #include "MAX30105.h"
 
-const char* ssid = "ELTX-2.4GHz_WiFi_3668";         // здесь нужно поставить свой  Wi-Fi
-const char* password = "GP2F081696"; // здесь введите свой пароль
-const char* serverName = "http://192.168.1.11:5000/pulse"; // замените <IP> на локальный IP адрес
+const char* ssid = "";         // здесь нужно поставить свой  Wi-Fi
+const char* password = ""; // здесь введите свой пароль
+const char* serverName = ""; // замените <IP> на локальный IP адрес
 
 MAX30105 sensor;
 
