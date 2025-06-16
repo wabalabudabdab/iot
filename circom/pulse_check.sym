@@ -1,0 +1,6 @@
+1,1,0,main.result
+2,2,0,main.pulse
+3,3,0,main.threshold
+4,4,0,main.alert
+5,-1,0,main.diff
+6,-1,0,main.prod

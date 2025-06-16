@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  zk:
+    build:
+      context: ./docker
+    volumes:
+      - ./circom:/app/circom
+    working_dir: /app/circom
+    tty: true
